@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EE5B8B4B-E532-418D-B109-C7C93F9B460E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78269F80-1FD5-43FD-9404-EA173425472A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatGPT-iOSApp/ChatViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "sendMessage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78269F80-1FD5-43FD-9404-EA173425472A - 1f71ef2ac81f8fc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ChatGPT_iOSApp.ChatView.ViewModel.sendMessage() -&gt; ()"
+                  moduleName = "ChatGPT-iOSApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srivallikanchibotla/Desktop/ChatGPT-iOSApp/ChatGPT-iOSApp/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25">
+               </Location>
+               <Location
+                  uuid = "78269F80-1FD5-43FD-9404-EA173425472A - 6228ad83cc8c03a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ChatGPT_iOSApp.ChatView.ViewModel.sendMessage() -&gt; ()"
+                  moduleName = "ChatGPT-iOSApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srivallikanchibotla/Desktop/ChatGPT-iOSApp/ChatGPT-iOSApp/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
