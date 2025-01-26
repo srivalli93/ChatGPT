@@ -33,13 +33,13 @@ struct ChatView: View {
     
     func messageView(message: Message) -> some View {
         HStack {
-            if message.role == .user {
+            if message.role == "user" {
                 Spacer()
             }
             Text(message.content)
                 .padding()
-                .background(message.role == .user ? Color.blue : Color.gray.opacity(0.4))
-            if message.role == .assistant {
+                .background(message.role == "user" ? Color.blue : Color.gray.opacity(0.4))
+            if message.role == "assistant" {
                 Spacer()
             }
         }

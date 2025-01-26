@@ -7,8 +7,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "78269F80-1FD5-43FD-9404-EA173425472A"
-            shouldBeEnabled = "Yes"
+            uuid = "FD023A71-66E0-43AF-AF73-08B93EB5C8C7"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatGPT-iOSApp/ChatViewModel.swift"
@@ -18,34 +18,126 @@
             endingLineNumber = "25"
             landmarkName = "sendMessage()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "775B82D7-8277-46F3-9F7D-5505C81585BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatGPT-iOSApp/OpenAIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "sendMessageToOpenAI(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C9867C1-BFDC-4580-9B5A-9CA3A234F50B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatGPT-iOSApp/ChatViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "sendMessage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE29767C-EFDF-4793-9D5F-C38A5A41F534"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatGPT-iOSApp/OpenAIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "sendMessageToOpenAI(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "196F2E3E-4076-4085-A261-2B6FBE0C5F33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatGPT-iOSApp/OpenAIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "sendMessageToOpenAI(_:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "78269F80-1FD5-43FD-9404-EA173425472A - 1f71ef2ac81f8fc1"
+                  uuid = "196F2E3E-4076-4085-A261-2B6FBE0C5F33 - 9453b0860d47fbd1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ChatGPT_iOSApp.ChatView.ViewModel.sendMessage() -&gt; ()"
-                  moduleName = "ChatGPT-iOSApp"
+                  symbolName = "(1) suspend resume partial function for ChatGPT_iOSApp.OpenAIService.sendMessageToOpenAI(Swift.Array&lt;ChatGPT_iOSApp.Message&gt;) async -&gt; Swift.Optional&lt;ChatGPT_iOSApp.OpenAIChatResponse&gt;"
+                  moduleName = "ChatGPT-iOSApp.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/srivallikanchibotla/Desktop/ChatGPT-iOSApp/ChatGPT-iOSApp/ChatViewModel.swift"
+                  urlString = "file:///Users/srivallikanchibotla/Desktop/iOSGit/ChatGPT/ChatGPT-iOSApp/OpenAIService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
                </Location>
                <Location
-                  uuid = "78269F80-1FD5-43FD-9404-EA173425472A - 6228ad83cc8c03a3"
+                  uuid = "196F2E3E-4076-4085-A261-2B6FBE0C5F33 - dc38df0ff8bc3b0e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ChatGPT_iOSApp.ChatView.ViewModel.sendMessage() -&gt; ()"
-                  moduleName = "ChatGPT-iOSApp"
+                  symbolName = "(2) await resume partial function for ChatGPT_iOSApp.OpenAIService.sendMessageToOpenAI(Swift.Array&lt;ChatGPT_iOSApp.Message&gt;) async -&gt; Swift.Optional&lt;ChatGPT_iOSApp.OpenAIChatResponse&gt;"
+                  moduleName = "ChatGPT-iOSApp.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/srivallikanchibotla/Desktop/ChatGPT-iOSApp/ChatGPT-iOSApp/ChatViewModel.swift"
+                  urlString = "file:///Users/srivallikanchibotla/Desktop/iOSGit/ChatGPT/ChatGPT-iOSApp/OpenAIService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "196F2E3E-4076-4085-A261-2B6FBE0C5F33 - 583693a7d16c47d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ChatGPT_iOSApp.OpenAIService.sendMessageToOpenAI(Swift.Array&lt;ChatGPT_iOSApp.Message&gt;) async -&gt; Swift.Optional&lt;ChatGPT_iOSApp.OpenAIChatResponse&gt;"
+                  moduleName = "ChatGPT-iOSApp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srivallikanchibotla/Desktop/iOSGit/ChatGPT/ChatGPT-iOSApp/OpenAIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "196F2E3E-4076-4085-A261-2B6FBE0C5F33 - 26c4fc570799e5d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ChatGPT_iOSApp.OpenAIService.sendMessageToOpenAI(Swift.Array&lt;ChatGPT_iOSApp.Message&gt;) async -&gt; Swift.Optional&lt;ChatGPT_iOSApp.OpenAIChatResponse&gt;"
+                  moduleName = "ChatGPT-iOSApp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srivallikanchibotla/Desktop/iOSGit/ChatGPT/ChatGPT-iOSApp/OpenAIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -16,17 +16,18 @@ extension ChatView {
         private let openAIService = OpenAIService()
         
         func sendMessage() {
-            let newMessage = Message(id: UUID(), role: .user, content: currentInput, createAt: Date())
+            let newMessage = Message(id: UUID(), role: "user", content: currentInput, createAt: Date())
             messages.append(newMessage)
             currentInput = ""
             
             Task {
                 let response = await openAIService.sendMessageToOpenAI(messages)
+                print(response)
                 guard let receivedOpenAIMessage = response?.choices.first?.message else {
                     print("No received messages")
                     return
                 }
-                let receivedMessage = Message(id: UUID(), role: receivedOpenAIMessage.role, content: receivedOpenAIMessage.content, createAt: Date())
+                let receivedMessage = Message(id: UUID(), role: "assistant", content: receivedOpenAIMessage.content, createAt: Date())
                 await MainActor.run {
                     messages.append(receivedMessage)
                 }
@@ -37,7 +38,7 @@ extension ChatView {
 
 struct Message: Decodable {
     let id: UUID
-    let role: SenderRole
+    let role: String
     let content: String
     let createAt: Date
 }
